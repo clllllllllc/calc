@@ -1,0 +1,16 @@
+Local eq
+Local var
+Local s
+
+Input eq, "enter equation"
+Input vbar, "enter variable"
+
+solve (eq, var) => s
+
+GetType s, t
+If t = "EXPR"
+Then
+Message "No Solution"
+ElseIf t = "LIST"
+Then
+For 1⇒ 
